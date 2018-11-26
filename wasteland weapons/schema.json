@@ -1,0 +1,127 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "wasteland weapons",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "weaponinfo",
+                    "slots": [
+                        {
+                            "name": "weapon",
+                            "type": "weapon"
+                        }
+                    ],
+                    "samples": [
+                        "tell me about {weapon}",
+                        "what are the details for {weapon}",
+                        "what are the stats for {weapon}",
+                        "{weapon}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "weapon",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "pipe revolver"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "double barrel shotgun"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pump action shotgun"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pipe bolt action"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pipe gun"
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "name": {
+                                "value": "10 mm pistol",
+                                "synonyms": [
+                                    "10 mil pistol",
+                                    "10mm",
+                                    "10mm pistol"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
