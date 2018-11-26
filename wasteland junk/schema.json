@@ -1,0 +1,183 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "wasteland junk",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "junkintent",
+                    "slots": [
+                        {
+                            "name": "junk",
+                            "type": "junk"
+                        }
+                    ],
+                    "samples": [
+                        "tell me things i can find {junk} in",
+                        "{junk}",
+                        "where can i find {junk}",
+                        "what has {junk} in it",
+                        "where can i get {junk} from",
+                        "where can i get {junk}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "junk",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "spring"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "screw"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "oil"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nuclear material"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lead"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gold"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "glass"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gears"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fiberglass"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fiber optics"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fertilizer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "crystal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "circuitry"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "aluminium"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "adhesive"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "acid"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ceramic"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bone"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
