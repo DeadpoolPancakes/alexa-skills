@@ -1,0 +1,102 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "wasteland bobbleheads",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "bobbleheadintent",
+                    "slots": [
+                        {
+                            "name": "item",
+                            "type": "item"
+                        }
+                    ],
+                    "samples": [
+                        "what does the {item} bobblehead do",
+                        "the effects of {item}",
+                        "{item}",
+                        "tell me about {item}",
+                        "what are the details for {item}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "item",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "sneak"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "science"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "repair"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "leader"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "caps"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "unarmed"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "small guns"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "melee"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "energy weapons"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "big guns"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
